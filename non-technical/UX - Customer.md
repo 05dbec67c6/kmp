@@ -1,5 +1,3 @@
-
-
 Perspective Customer - Current situation
 Carl Customer really likes going to restaurants, so he this evening goes to one. He stands in the entrance
 area and waits until the waitress comes to Carl and shows him a free table and then disappears, because
@@ -38,6 +36,25 @@ Technical things
 
 Further ideas
 -can be used to make reservation for table
+
+-configure menu/prices/images
+-configure headphoto
+-configure payment methods
+-status
+    -table occupied
+    -order executed -> kitchen
+    -finished orgering execute payment
+    -in app, or get signal with cash
+
+-print talbe qr codes
+-unlock table after guest left
+-scan qr code -> generate token
+-valid for date today if same or code was scanned yesterday then invalid
+-token valid for 3 hours
+-invoice payment system
+-needs export as pdf?
+-what time logged in, what ordered, what price
+-end of day print of all data
 
 
 
