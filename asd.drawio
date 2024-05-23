@@ -1,23 +1,86 @@
-<mxfile host="app.diagrams.net" modified="2024-05-20T19:46:02.406Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="aV_okhLjx5jM3G_-8LJw" version="24.4.4" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-23T20:31:46.180Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:126.0) Gecko/20100101 Firefox/126.0" etag="4wEgKHEp4ATy1Q7IWD26" version="24.4.6" type="github">
   <diagram name="Seite-1" id="Hyg9VIfFaMJfO4DKxUFo">
     <mxGraphModel dx="1368" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="k9pALT416i5xD2t6hL4e-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="k9pALT416i5xD2t6hL4e-1" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="120" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="k9pALT416i5xD2t6hL4e-2" value="" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="k9pALT416i5xD2t6hL4e-2" value="&lt;div&gt;Network / Internet&lt;/div&gt;&lt;div&gt;Server&lt;br&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="354" y="270" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="k9pALT416i5xD2t6hL4e-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="k9pALT416i5xD2t6hL4e-3" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="280" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="k9pALT416i5xD2t6hL4e-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="LH0vuG4qetHg796WH2n4-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="k9pALT416i5xD2t6hL4e-4" target="k9pALT416i5xD2t6hL4e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="k9pALT416i5xD2t6hL4e-4" value="Customer" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="120" y="430" width="120" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="k9pALT416i5xD2t6hL4e-5" value="" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+        <mxCell id="k9pALT416i5xD2t6hL4e-5" value="Admin App (same app)" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
           <mxGeometry x="600" y="280" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-2" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="k9pALT416i5xD2t6hL4e-1" target="k9pALT416i5xD2t6hL4e-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="k9pALT416i5xD2t6hL4e-5" target="k9pALT416i5xD2t6hL4e-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="390" y="420" as="sourcePoint" />
+            <mxPoint x="440" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.025;entryY=0.558;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="k9pALT416i5xD2t6hL4e-3" target="k9pALT416i5xD2t6hL4e-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-8" value="Customer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="700" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-9" value="Customer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="130" y="810" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-10" value="Customer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="910" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-11" value="Customer" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="120" y="1010" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-12" value="Admin App" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LH0vuG4qetHg796WH2n4-8" target="LH0vuG4qetHg796WH2n4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LH0vuG4qetHg796WH2n4-9" target="LH0vuG4qetHg796WH2n4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-15" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="LH0vuG4qetHg796WH2n4-10" target="LH0vuG4qetHg796WH2n4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.025;exitY=0.425;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="LH0vuG4qetHg796WH2n4-11" target="LH0vuG4qetHg796WH2n4-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="810" as="sourcePoint" />
+            <mxPoint x="450" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-17" value="&lt;div&gt;Problem, where does the data reside,&lt;/div&gt;&lt;div&gt;can android work as a server?&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="530" y="845" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="LH0vuG4qetHg796WH2n4-18" value="&lt;div&gt;Its not feasable, because restaurant shouldnt be taking the extra&lt;/div&gt;&lt;div&gt;step to rent configure a server, can all be with app?&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="440" y="430" width="420" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
